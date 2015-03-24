@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+.columns {
+	background: pink
+}/* CSS Document */
+
+
+/* Tags And Elements */
+body { 
+	font-family: "arial", serif;
+}
+
+a{}
+
+h1 {
+	font-size:10px;
+	background: pink;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+
+ul,
+ol {}
+
+li {}
+
+
+/* Repeating Components */
+
+.course-list {}
+
+.course-item {}
+
+.course-heading{}
+
+.menu-item {}
+.menu-heading {}
+.menu-desc {}
+
+/* Unique Components or Unique Versions of Components */
+
+.menu-item.menu-item-featured {
+	
+}
+
+
+/*  Layout Structure */
+
+
+/* Mobile Styes First */
+
+.main-content {
+	padding: 0 20px;
+}
+
+/* Bigger Sizes Next */
+
+@media screen and (min-width: 600px) {
+	.main-content { 
+	padding: 0;
+	background-color: pink;
+	}
+}
+
+@media screen /* CSS Document */
+
